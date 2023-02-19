@@ -1,6 +1,7 @@
 module.exports = {
     'extends': [
-        require.resolve('./rules/feature-sliced')
+        'plugin:boundaries/recommended',
+        require.resolve('./rules/feature-sliced'),
     ],
     'settings': {
         'boundaries/elements': [
@@ -12,7 +13,12 @@ module.exports = {
             { 'type': 'entities', 'pattern': 'entities/*' },
             { 'type': 'shared', 'pattern': 'shared/*' }
         ],
-        'boundaries/ignore': ['**/*.test.*'],
+        'boundaries/ignore': ['**/*.test.*', '**/*.spec.*', 'test/**/*'],
     },
-    'overrides': [ { 'files': ['**/*.test.*'], 'rules': { 'boundaries/element-types': 'off' } } ]
+    'overrides': [
+        {
+            'files': ['**/*.test.*', '**/*.spec.*', 'test/**/*'],
+            'rules': { 'boundaries/element-types': 'off' }
+        }
+    ]
 };
