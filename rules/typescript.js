@@ -142,5 +142,16 @@ module.exports = {
         '@typescript-eslint/space-infix-ops': styleRules['space-infix-ops'],
         'no-restricted-syntax': styleRules['no-restricted-syntax'],
         'object-curly-newline': editorRules['object-curly-newline'],
+        'react/jsx-filename-extension': [
+            'error',
+            {
+                'extensions': [
+                    '.js',
+                    '.jsx',
+                    '.ts',
+                    '.tsx'
+                ]
+            }
+        ],
     }
 };
