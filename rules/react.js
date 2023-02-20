@@ -120,5 +120,13 @@ module.exports = {
         'react/jsx-sort-default-props': 'warn',
         'react/jsx-tag-spacing': 'error',
         'react/jsx-wrap-multilines': 'error',
+        'react/jsx-sort-props': [
+            'error',
+            {
+                'callbacksLast': true,
+                'reservedFirst': true,
+                'shorthandLast': true
+            }
+        ],
     }
 };

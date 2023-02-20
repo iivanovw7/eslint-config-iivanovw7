@@ -11,5 +11,5 @@ module.exports = {
     parserOptions: {
         project: './tsconfig.json',
     },
-    plugins: ['@typescript-eslint', 'react-hooks', 'typescript-sort-keys', 'typescript-enum'],
+    plugins: ['@typescript-eslint', 'react-hooks', 'typescript-sort-keys', 'typescript-enum']
 };
