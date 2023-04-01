@@ -9,11 +9,11 @@
     },
     "author": "iivanovw7",
     "dependencies": {
-        "@typescript-eslint/eslint-plugin": "5.52.0",
-        "@typescript-eslint/parser": "5.52.0",
-        "eslint": "8.34.0",
+        "@typescript-eslint/eslint-plugin": "5.57.0",
+        "@typescript-eslint/parser": "5.57.0",
+        "eslint": "8.37.0",
         "eslint-config-airbnb": "19.0.4",
-        "eslint-import-resolver-typescript": "3.5.3",
+        "eslint-import-resolver-typescript": "3.5.4",
         "eslint-plugin-boundaries": "3.1.0",
         "eslint-plugin-import": "2.27.5",
         "eslint-plugin-jest": "27.2.1",
@@ -22,7 +22,7 @@
         "eslint-plugin-react": "7.32.2",
         "eslint-plugin-react-hooks": "4.6.0",
         "eslint-plugin-typescript-enum": "2.1.0",
-        "eslint-plugin-typescript-sort-keys": "2.1.0",
-        "typescript": "4.9.5"
+        "eslint-plugin-typescript-sort-keys": "2.3.0",
+        "typescript": "5.0.3"
     }
 }
