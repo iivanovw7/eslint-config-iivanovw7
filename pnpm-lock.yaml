@@ -15,6 +15,7 @@ specifiers:
   eslint-plugin-react-hooks: 4.6.0
   eslint-plugin-typescript-enum: 2.1.0
   eslint-plugin-typescript-sort-keys: 2.3.0
+  eslint-plugin-vitest: 0.0.57
   typescript: 5.0.3
 
 dependencies:
@@ -32,6 +33,7 @@ dependencies:
   eslint-plugin-react-hooks: 4.6.0_eslint@8.37.0
   eslint-plugin-typescript-enum: 2.1.0_vwh6htx42aidho2qgfca5u5rwm
   eslint-plugin-typescript-sort-keys: 2.3.0_z24sz2fazj3bxoipp6m4s7b2mi
+  eslint-plugin-vitest: 0.0.57_vwh6htx42aidho2qgfca5u5rwm
   typescript: 5.0.3
 
 packages:
@@ -1008,6 +1010,19 @@ packages:
       typescript: 5.0.3
     transitivePeerDependencies:
       - supports-color
+    dev: false
+
+  /eslint-plugin-vitest/0.0.57_vwh6htx42aidho2qgfca5u5rwm:
+    resolution: {integrity: sha512-+Ab+QrgjkqwIu7DqtW6D+/F+HmlyQ0dV78jOWs12RscKsFdXdX4IU0u3zM/sXN6ju2DJN4wwxx2/i+eIHkcWpg==}
+    engines: {node: 14.x || >= 16}
+    peerDependencies:
+      eslint: '>=8.0.0'
+    dependencies:
+      '@typescript-eslint/utils': 5.57.0_vwh6htx42aidho2qgfca5u5rwm
+      eslint: 8.37.0
+    transitivePeerDependencies:
+      - supports-color
+      - typescript
     dev: false
 
   /eslint-scope/5.1.1:
