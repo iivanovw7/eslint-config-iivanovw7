@@ -9,7 +9,11 @@ module.exports = {
     ],
     parser: '@typescript-eslint/parser',
     parserOptions: {
-        project: './tsconfig.json',
+        createDefaultProgram: false,
+        ecmaVersion: 2020,
+        parser: '@typescript-eslint/parser',
+        project: './tsconfig.*?.json',
+        sourceType: 'module',
     },
     plugins: ['@typescript-eslint', 'typescript-sort-keys', 'typescript-enum']
 };
