@@ -22,9 +22,11 @@ module.exports = {
             'warn',
             {
                 require: {
-                    ClassDeclaration: true,
                     FunctionDeclaration: true,
                     MethodDefinition: true,
+                    ClassDeclaration: true,
+                    ArrowFunctionExpression: true,
+                    FunctionExpression: true
                 },
             },
         ],
