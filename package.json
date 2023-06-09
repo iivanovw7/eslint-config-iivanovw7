@@ -25,7 +25,6 @@
         "eslint-plugin-react-hooks": "4.6.0",
         "eslint-plugin-solid": "0.12.1",
         "eslint-plugin-typescript-enum": "2.1.0",
-        "eslint-plugin-typescript-sort-keys": "2.3.0",
         "eslint-plugin-vitest": "0.2.5",
         "typescript": "5.1.3"
     }

@@ -4,7 +4,6 @@ module.exports = {
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
         'plugin:import/typescript',
         'plugin:typescript-enum/recommended',
-        'plugin:typescript-sort-keys/recommended',
         require.resolve('./rules/typescript')
     ],
     parser: '@typescript-eslint/parser',
@@ -15,5 +14,5 @@ module.exports = {
         project: './tsconfig.*?.json',
         sourceType: 'module',
     },
-    plugins: ['@typescript-eslint', 'typescript-sort-keys', 'typescript-enum']
+    plugins: ['@typescript-eslint', 'typescript-enum']
 };
