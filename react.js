@@ -1,8 +1,7 @@
 module.exports = {
     'extends': [
-        'airbnb',
-        'airbnb/hooks',
-        'plugin:import/react',
+        'eslint:recommended',
+        'plugin:react/recommended',
         require.resolve('./rules/es6'),
         require.resolve('./rules/editor'),
         require.resolve('./rules/magic-numbers'),

@@ -1,6 +1,6 @@
 module.exports = {
     'extends': [
-        'airbnb/base',
+        'eslint:recommended',
         'plugin:import/errors',
         'plugin:import/warnings',
         require.resolve('./rules/es6'),
