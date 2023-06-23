@@ -26,6 +26,8 @@
         "eslint-plugin-solid": "0.12.1",
         "eslint-plugin-typescript-enum": "2.1.0",
         "eslint-plugin-vitest": "0.2.5",
+        "eslint-plugin-tailwindcss": "3.12.1",
+        "eslint-plugin-astro": "0.27.1",
         "typescript": "5.1.3"
     }
 }
