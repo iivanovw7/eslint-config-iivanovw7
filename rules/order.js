@@ -1,7 +1,6 @@
 module.exports = {
     rules: {
-        // sort-imports
-        'import/order': 'off',
+        // sort-imports (conflicts with `perfectionist/sort-named-imports`)
         'sort-imports': 'off',
         // sort-interfaces
         '@typescript-eslint/adjacent-overload-signatures': 'off',
@@ -13,7 +12,6 @@ module.exports = {
         '@typescript-eslint/sort-type-constituents': 'off',
         // typescript-sort-keys
         'typescript-sort-keys/interface': 'off',
-
         // order rules
         'perfectionist/sort-array-includes': [
             'error',
