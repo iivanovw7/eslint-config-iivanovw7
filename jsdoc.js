@@ -1,5 +1,5 @@
 module.exports = {
-    'extends': [
-        require.resolve('./rules/jsdoc')
+    "extends": [
+        require.resolve("./rules/jsdoc")
     ],
 };

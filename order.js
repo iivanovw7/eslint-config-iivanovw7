@@ -1,6 +1,6 @@
 module.exports = {
-    'extends': [
-        require.resolve('./rules/order')
+    "extends": [
+        require.resolve("./rules/order")
     ],
-    plugins: ['perfectionist'],
+    plugins: ["perfectionist"],
 };

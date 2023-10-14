@@ -2,38 +2,29 @@ const maxLen = 120;
 
 module.exports = {
     rules: {
-        'eol-last': 'error',
-        'linebreak-style': [
-            'error',
-            'unix'
-        ],
-        'no-trailing-spaces': [
-            'warn',
+        "eol-last": "error",
+        "linebreak-style": ["error", "unix"],
+        "no-trailing-spaces": [
+            "warn",
             {
-                'skipBlankLines': true,
-                'ignoreComments': true
-            }
+                skipBlankLines: true,
+                ignoreComments: true,
+            },
         ],
-        curly: [
-            'error',
-            'all',
-        ],
-        'object-curly-newline': 'off',
+        curly: ["error", "all"],
+        "object-curly-newline": "off",
         indent: [
-            'error',
+            "error",
             4,
             {
                 MemberExpression: 1,
                 SwitchCase: 1,
             },
         ],
-        'max-len': [
-            'error',
-            maxLen,
-        ],
-        'quote-props': [
-            'error',
-            'as-needed',
+        "max-len": ["error", maxLen],
+        "quote-props": [
+            "error",
+            "as-needed",
             {
                 keywords: true,
                 numbers: true,
@@ -41,22 +32,19 @@ module.exports = {
             },
         ],
         quotes: [
-            'error',
-            'single',
+            "error",
+            "double",
             {
                 avoidEscape: true,
             },
         ],
-        semi: [
-            'error',
-            'always',
-        ],
-        'semi-spacing': [
-            'error',
+        semi: ["error", "always"],
+        "semi-spacing": [
+            "error",
             {
                 before: false,
                 after: true,
             },
         ],
-    }
+    },
 };

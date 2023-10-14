@@ -1,34 +1,34 @@
 module.exports = {
     rules: {
-        'valid-jsdoc': [
-            'error',
+        "valid-jsdoc": [
+            "error",
             {
-                matchDescription: '\\S{5,}',
+                matchDescription: "\\S{5,}",
                 prefer: {
-                    arg: 'param',
-                    argument: 'param',
-                    augments: 'extends',
-                    returns: 'return',
+                    arg: "param",
+                    argument: "param",
+                    augments: "extends",
+                    returns: "return",
                 },
                 preferType: {
-                    Boolean: 'boolean',
-                    Number: 'number',
-                    String: 'string',
+                    Boolean: "boolean",
+                    Number: "number",
+                    String: "string",
                 },
                 requireReturn: false,
             },
         ],
-        'require-jsdoc': [
-            'warn',
+        "require-jsdoc": [
+            "warn",
             {
                 require: {
                     FunctionDeclaration: true,
                     MethodDefinition: true,
                     ClassDeclaration: true,
                     ArrowFunctionExpression: true,
-                    FunctionExpression: true
+                    FunctionExpression: true,
                 },
             },
         ],
-    }
+    },
 };

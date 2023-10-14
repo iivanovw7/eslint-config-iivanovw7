@@ -1,9 +1,9 @@
 module.exports = {
     rules: {
-        'tailwindcss/classnames-order': [
-            'error',
+        "tailwindcss/classnames-order": [
+            "error",
             {
-                'officialSorting': true,
+                "officialSorting": true,
             },
         ],
     },

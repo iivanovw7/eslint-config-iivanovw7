@@ -1,6 +1,6 @@
 module.exports = {
-    'extends': [
-        require.resolve('./rules/typedoc')
+    "extends": [
+        require.resolve("./rules/typedoc")
     ],
-    'plugins': ['jsdoc']
+    "plugins": ["jsdoc"]
 };

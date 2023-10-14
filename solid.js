@@ -1,4 +1,4 @@
 module.exports = {
-    'plugins': ['solid'],
-    'extends': ['plugin:solid/recommended']
+    plugins: ["solid"],
+    "extends": ["plugin:solid/recommended"],
 };

@@ -5,11 +5,11 @@ module.exports = {
     },
     parserOptions: {
         ecmaVersion: 2018,
-        sourceType: 'module',
+        sourceType: "module",
     },
-    'extends': [
-        'plugin:jest/recommended',
-        'plugin:jest-formatting/recommended',
-        require.resolve('./rules/test-jest')
+    "extends": [
+        "plugin:jest/recommended",
+        "plugin:jest-formatting/recommended",
+        require.resolve("./rules/test-jest")
     ],
 };
