@@ -34,9 +34,6 @@ module.exports = {
         quotes: [
             "error",
             "double",
-            {
-                avoidEscape: true,
-            },
         ],
         semi: ["error", "always"],
         "semi-spacing": [
