@@ -57,10 +57,13 @@ module.exports = {
             {
                 type: "natural",
                 order: "asc",
-                "always-on-top": ["id", "key", "ref"],
-                shorthand: "first",
-                multiline: "ignore",
-                callback: "last",
+                groups: ["id", "key", "ref", "multiline", "unknown", "callback", "shorthand"],
+                "custom-groups": {
+                    "callback": "on*",
+                    id: "id",
+                    key: "key",
+                    ref: "ref"
+                }
             },
         ],
         "perfectionist/sort-interfaces": [
