@@ -21,6 +21,21 @@ module.exports = {
                 "spread-last": true,
             },
         ],
+        "perfectionist/sort-astro-attributes": [
+            "error",
+            {
+                type: "natural",
+                order: "asc",
+                groups: [
+                    "multiline",
+                    "unknown",
+                    [
+                        "shorthand",
+                        "astro-shorthand"
+                    ]
+                ],
+            }
+        ],
         "perfectionist/sort-classes": [
             "error",
             {
