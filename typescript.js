@@ -11,7 +11,7 @@ module.exports = {
         createDefaultProgram: false,
         ecmaVersion: 2020,
         parser: "@typescript-eslint/parser",
-        project: "./tsconfig.*?.json",
+        project: "tsconfig.json",
         sourceType: "module",
     },
     plugins: ["@typescript-eslint", "typescript-enum"]
