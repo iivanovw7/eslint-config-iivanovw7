@@ -1,0 +1,51 @@
+{
+    "name": "stylelint-config-iivanovw7",
+    "private": true,
+    "version": "1.0.1",
+    "description": "Contains personal Eslint config",
+    "scripts": {
+        "test:format": "prettier-eslint \"**/*.{js,ts,json,md,yml,yaml}\" --log-level error --write",
+        "test:js": "eslint --cache --max-warnings 0 \"**/*.{js,ts}\" --fix",
+        "test": "pnpm run /^test:/",
+        "prepare": "husky"
+    },
+    "engines": {
+        "node": "20.11.1"
+    },
+    "main": "index.js",
+    "type": "module",
+    "devDependencies": {
+        "@commitlint/cli": "19.4.0",
+        "@commitlint/config-conventional": "19.2.2",
+        "@typescript-eslint/eslint-plugin": "7.17.0",
+        "@typescript-eslint/parser": "7.17.0",
+        "eslint": "8.56.0",
+        "eslint-define-config": "2.1.0",
+        "eslint-plugin-import": "2.29.1",
+        "eslint-plugin-jsdoc": "50.2.2",
+        "eslint-plugin-jsx-a11y": "6.9.0",
+        "eslint-plugin-n": "16.4.0",
+        "eslint-plugin-perfectionist": "2.5.0",
+        "eslint-plugin-prefer-arrow": "1.2.3",
+        "eslint-plugin-prefer-let": "3.0.1",
+        "eslint-plugin-promise": "7.1.0",
+        "eslint-plugin-react": "7.33.2",
+        "eslint-plugin-react-hooks": "4.6.0",
+        "eslint-plugin-testing-library": "6.0.2",
+        "eslint-plugin-typescript-enum": "2.1.0",
+        "eslint-plugin-unicorn": "49.0.0",
+        "eslint-plugin-vitest": "0.5.4",
+        "husky": "9.1.4",
+        "prettier": "3.1.1",
+        "prettier-eslint": "16.3.0",
+        "prettier-eslint-cli": "8.0.1",
+        "stylelint": "16.0.2",
+        "stylelint-config-recess-order": "4.4.0",
+        "stylelint-order": "6.0.4",
+        "stylelint-plugin-logical-css": "1.2.1",
+        "typescript": "5.5.3"
+    },
+    "dependencies": {
+        "globals": "15.8.0"
+    }
+}
