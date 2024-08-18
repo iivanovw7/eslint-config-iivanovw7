@@ -1,4 +1,3 @@
-import typescriptConfig from "@azat-io/eslint-config-typescript";
 import { defineFlatConfig } from "eslint-define-config";
 import jsxA11y from "eslint-plugin-jsx-a11y";
 import react from "eslint-plugin-react";
@@ -7,6 +6,7 @@ import testingLibrary from "eslint-plugin-testing-library";
 
 import reactConfig from "./rules/react";
 import testingLibraryConfig from "./rules/testing-library";
+import typescriptConfig from "./typescript";
 
 export default defineFlatConfig([
     ...typescriptConfig,
